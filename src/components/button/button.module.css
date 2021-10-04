@@ -1,0 +1,14 @@
+@value makerPurple from "../../common/colors.css";
+@value radius from "../../common/size.css";
+
+.button {
+  width: 30vw;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: makerPurple;
+  border-style: none;
+  border-radius: radius;
+  font-family: 'Jua', sans-serif;
+}

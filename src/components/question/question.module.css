@@ -1,0 +1,18 @@
+@value smallScreen from '../../common/size.css';
+@value mediumScreen from '../../common/size.css';
+
+.q {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: smallScreen) {
+  .q {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: mediumScreen) {
+  .q {
+    font-size: 1.3rem;
+  }
+}

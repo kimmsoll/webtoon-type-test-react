@@ -1,0 +1,59 @@
+@value radius from '../../common/size.css';
+@value smallScreen from '../../common/size.css';
+@value mediumScreen from '../../common/size.css';
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 20em;
+  height: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#i {
+  font-size: 5.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#i {
+  animation: move 1s infinite alternate;
+}
+
+@keyframes move {
+  10% {
+    transform: scale3d(0.5, 0.5, 0.5);
+    color: seagreen;
+  }
+  50% {
+    transform: scale3d(1.5, 1.8, 1);
+    color: royalblue;
+  }
+  100% {
+    transform: scale3d(1.5, 1.5, 1.5);
+    color: salmon;
+  }
+}
+
+@media screen and (max-width: smallScreen) {
+  .title {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: mediumScreen) {
+  .title {
+    font-size: 1.5rem;
+  }
+}

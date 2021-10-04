@@ -1,0 +1,14 @@
+@value radius from '../../common/size.css';
+@value makerPurple from '../../common/colors.css';
+
+.button {
+  width: 100%;
+  border-radius: radius;
+  border: none;
+  background-color: makerPurple;
+  margin-top: 1rem;
+}
+
+.button:active {
+  background-color: hotpink;
+}

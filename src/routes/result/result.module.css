@@ -1,0 +1,77 @@
+@value makerOrange from '../../common/colors.css';
+@value radius from '../../common/size.css';
+@value smallScreen from '../../common/size.css';
+@value mediumScreen from '../../common/size.css';
+
+.container {
+  width: 50vw;
+  height: auto;
+  padding: 3rem 0;
+  background-color: makerOrange;
+  border-radius: radius;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 80%;
+  height: 25vh;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: radius;
+}
+
+#img {
+  width: 15em;
+  height: auto;
+  border-radius: radius;
+  animation: appear 3s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(1em);
+    box-shadow: 1em -2em royalblue;
+  }
+  to {
+    opacity: 1;
+    box-shadow: 0.8em 0.8em tomato;
+  }
+}
+
+.span {
+  width: 5em;
+  text-align: center;
+  padding: 0.5em;
+  background-color: lightsalmon;
+  color: white;
+  border-radius: radius;
+}
+
+.description,
+.synopsis {
+  padding: 0 10vw;
+}
+
+@media screen and (max-width: smallScreen) {
+  .container {
+    width: 80%;
+  }
+  #img {
+    width: 10em;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: mediumScreen) {
+  .container {
+    width: 70%;
+  }
+  #img {
+    width: 12em;
+  }
+}
