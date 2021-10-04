@@ -6,7 +6,7 @@
 .container {
   width: 50vw;
   height: auto;
-  padding: 3rem 0;
+  padding: 5rem 0;
   background-color: makerOrange;
   border-radius: radius;
   display: flex;
@@ -15,10 +15,13 @@
   justify-content: center;
 }
 
+.subtitle {
+  padding: 0 1em;
+}
+
 .img {
   width: 80%;
-  height: 25vh;
-  margin-bottom: 2em;
+  height: 15em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +51,7 @@
   width: 5em;
   text-align: center;
   padding: 0.5em;
-  background-color: lightsalmon;
+  background-color: lightcoral;
   color: white;
   border-radius: radius;
 }
@@ -56,6 +59,11 @@
 .description,
 .synopsis {
   padding: 0 10vw;
+  font-size: 1.2rem;
+}
+
+.synopsis {
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: smallScreen) {

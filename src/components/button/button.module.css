@@ -2,8 +2,8 @@
 @value radius from "../../common/size.css";
 
 .button {
-  width: 30vw;
-  font-size: 1rem;
+  width: 14em;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,4 +11,9 @@
   border-style: none;
   border-radius: radius;
   font-family: 'Jua', sans-serif;
+  margin-top: 1rem;
+}
+
+.button:active {
+  background-color: hotpink;
 }
