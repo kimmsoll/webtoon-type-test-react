@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../../components/button/button';
 import styles from './result.module.css';
 import { Link } from 'react-router-dom';
+import { shareKakao } from '../../kakao';
 
 const Result = ({sum, result}) => {
     const data = result[sum];
@@ -22,8 +23,8 @@ const Result = ({sum, result}) => {
         <a href={data.link}>
             <Button text="웹툰 보러 가기"/>
         </a>
-        <a id="kakao">
-        <Button text="카카오톡으로 공유하기"/>
+        <a onClick={shareKakao}>
+            <Button text="카카오톡으로 공유하기"/>
         </a>
         </section>
     );

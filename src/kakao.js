@@ -1,29 +1,24 @@
-<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-import Kakao from '@/common/plugins/kakao.min';
-
-if(!Kakao.isInitialized()){
-    Kakao.init(process.env.REACT_APP_KAKAO_API);
-}
-
-Kakao.Link.createDefaultButton({
-    container: '#kakao',
+export const shareKakao = () => {
+  window.Kakao.Link.sendDefault({
     objectType: 'feed',
     content: {
-      title: '내 취향에 딱!맞는 웹툰은?',
-      description: '웹툰 취향 테스트',
+      title: '나에게 딱!맞는 웹툰은?',
+      description: '테스트를 통해 내가 원하는 웹툰을 찾을 수 있어요',
       imageUrl:
         './images/thumbnail.png',
       link: {
         mobileWebUrl: 'https://webtoon-test.netlify.app',
-        androidExecutionParams: 'test',
+        webUrl: 'https://webtoon-test.netlify.app',
       },
     },
-    buttons:[
+    buttons: [
       {
-        title: '앱으로 이동',
+        title: '테스트하러 가기',
         link: {
           mobileWebUrl: 'https://webtoon-test.netlify.app',
+          webUrl: 'https://webtoon-test.netlify.app',
         },
       },
-    ]
-  });
+    ],
+  })
+};
