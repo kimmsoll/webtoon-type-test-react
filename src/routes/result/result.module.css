@@ -58,6 +58,7 @@
   font-family: 'Jua', sans-serif;
   text-align: center;
   padding: 0.5em;
+  margin: 1em;
   background-color: lightcoral;
   color: white;
   border-radius: radius;
@@ -75,7 +76,12 @@
 
 @media screen and (max-width: smallScreen) {
   .container {
-    width: 80%;
+    width: 90vw;
+    padding: 2rem 0;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+    padding: 0;
   }
   #img {
     width: 10em;
@@ -84,7 +90,12 @@
 
 @media screen and (min-width: 321px) and (max-width: mediumScreen) {
   .container {
-    width: 70%;
+    width: 80vw;
+    padding: 3rem 0;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+    padding: 0;
   }
   #img {
     width: 12em;

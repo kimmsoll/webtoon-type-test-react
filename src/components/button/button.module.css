@@ -1,8 +1,10 @@
 @value makerPurple from "../../common/colors.css";
 @value radius from "../../common/size.css";
+@value smallScreen from "../../common/size.css";
+@value mediumScreen from "../../common/size.css";
 
 .button {
-  width: 14em;
+  width: 35vw;
   font-size: 0.9rem;
   font-family: 'Jua', sans-serif;
   display: flex;
@@ -16,4 +18,16 @@
 
 .button:active {
   background-color: hotpink;
+}
+
+@media screen and (max-width: smallScreen) {
+  .button {
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: mediumScreen) {
+  .button {
+    width: 60vw;
+  }
 }
