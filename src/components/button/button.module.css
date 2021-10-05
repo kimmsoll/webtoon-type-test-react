@@ -3,14 +3,14 @@
 
 .button {
   width: 14em;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: 'yg-jalnan';
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: makerPurple;
   border-style: none;
   border-radius: radius;
-  font-family: 'Jua', sans-serif;
   margin-top: 1rem;
 }
 

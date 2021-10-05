@@ -2,7 +2,9 @@
 @value mediumScreen from '../../common/size.css';
 
 .q {
+  font-family: 'yg-jalnan';
   font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 
 @media screen and (max-width: smallScreen) {

@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.title {
+  font-family: 'yg-jalnan';
+}
+
 .img {
   width: 20em;
   height: 15em;
