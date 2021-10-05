@@ -2,8 +2,8 @@
 @value mediumScreen from '../../common/size.css';
 
 .q {
-  font-family: 'yg-jalnan';
   font-size: 1.5rem;
+  font-family: 'Jua', sans-serif;
   line-height: 1.8rem;
 }
 

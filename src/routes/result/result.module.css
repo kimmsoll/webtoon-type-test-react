@@ -16,11 +16,12 @@
 }
 
 .title {
-  font-family: 'InkLipquid';
+  font-family: 'Nanum Pen Script', cursive;
   font-size: 2rem;
 }
 
 .subtitle {
+  font-family: 'Jua', sans-serif;
   padding: 0 1em;
 }
 
@@ -54,6 +55,7 @@
 
 .span {
   width: 5em;
+  font-family: 'Jua', sans-serif;
   text-align: center;
   padding: 0.5em;
   background-color: lightcoral;
