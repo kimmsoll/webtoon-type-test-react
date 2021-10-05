@@ -18,11 +18,15 @@
 .title {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 2rem;
+  width: 80%;
+  text-align: center;
 }
 
 .subtitle {
   font-family: 'Jua', sans-serif;
-  padding: 0 1em;
+  font-size: 1.8rem;
+  width: 80%;
+  text-align: center;
 }
 
 .img {
@@ -81,7 +85,6 @@
   }
   .subtitle {
     font-size: 1.3rem;
-    padding: 0;
   }
   #img {
     width: 10em;
@@ -94,8 +97,7 @@
     padding: 3rem 0;
   }
   .subtitle {
-    font-size: 1.3rem;
-    padding: 0;
+    font-size: 1.5rem;
   }
   #img {
     width: 12em;
