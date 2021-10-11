@@ -3,9 +3,11 @@
 ### 1. 소개(Introduction)
 - 간단한 테스트를 통해 취향에 맞는 웹툰을 추천받을 수 있습니다.
 - 결과 화면에서 해당 웹툰 보러 가기와, 카카오톡으로 링크 공유가 가능합니다.
+</br>
 
 ### 2. 사용 스택(Skills)
-React, React Hook, Post CSS
+- React, React Hook, Post CSS
+</br>
 
 ### 3. 배포 링크(Preview)
 - https://webtoon-test.netlify.app
