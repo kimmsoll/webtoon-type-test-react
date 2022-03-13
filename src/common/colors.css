@@ -1,2 +1,8 @@
-@value makerOrange: rgba(255, 166, 0, 0.7);
-@value makerPurple: rgb(236, 213, 255);
+@value makerLightBg: #31315c;
+@value makerWhite from '../../common/colors.css';
+@value makerContainerBg: rgba(255, 255, 255, 0.1);
+@value makerPurple: #a2a3fe;
+@value makerWhite: #f3f3f6;
+@value makerMint: #6afbcf;
+@value makerYellow: #F9F871;
+@value makerShadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);

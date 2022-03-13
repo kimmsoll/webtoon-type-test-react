@@ -1,17 +1,24 @@
 @value radius from '../../common/size.css';
-@value makerPurple from '../../common/colors.css';
+@value makerLightBg from '../../common/colors.css';
+@value makerMint from '../../common/colors.css';
+@value makerShadow from '../../common/colors.css';
 
 .button {
   width: 100%;
   border-radius: radius;
   border: none;
-  background-color: makerPurple;
+  background-color: makerLightBg;
+  box-shadow: makerShadow;
+  color: makerMint;
   margin-top: 1rem;
   padding: 0 1em 1em 1em;
-  font-family: 'Poor Story', cursive;
+  font-family: "Poor Story", cursive;
   font-size: 0.9rem;
 }
 
+.button:hover,
 .button:active {
-  background-color: hotpink;
+  background-color: makerMint;
+  color: black;
+  cursor: pointer;
 }

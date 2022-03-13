@@ -22,9 +22,9 @@ const Result = ({sum, result}) => {
             <a href={data.link}>
                 <Button text="웹툰 보러 가기"/>
             </a>
-            <a onClick={shareKakao}>
+            <div onClick={shareKakao}>
                 <Button text="카카오톡으로 공유하기"/>
-            </a>
+            </div>
             </section>
     );
 }

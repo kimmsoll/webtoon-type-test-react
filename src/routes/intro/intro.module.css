@@ -1,6 +1,8 @@
-@value radius from '../../common/size.css';
 @value smallScreen from '../../common/size.css';
 @value mediumScreen from '../../common/size.css';
+@value makerMint from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerYellow from '../../common/colors.css';
 
 .main {
   height: 100vh;
@@ -12,7 +14,7 @@
 }
 
 .title {
-  font-family: 'Jua', sans-serif;
+  color: makerWhite;
 }
 
 .img {
@@ -38,15 +40,15 @@ a {
 @keyframes move {
   10% {
     transform: scale3d(0.5, 0.5, 0.5);
-    color: seagreen;
+    color: makerMint;
   }
   50% {
     transform: scale3d(1.5, 1.8, 1);
-    color: royalblue;
+    color: makerYellow;
   }
   100% {
     transform: scale3d(1.5, 1.5, 1.5);
-    color: salmon;
+    color: #3554c8;
   }
 }
 

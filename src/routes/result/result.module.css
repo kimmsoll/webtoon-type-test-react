@@ -1,4 +1,7 @@
-@value makerOrange from '../../common/colors.css';
+@value makerContainerBg from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerMint from '../../common/colors.css';
+@value makerYellow from '../../common/colors.css';
 @value radius from '../../common/size.css';
 @value smallScreen from '../../common/size.css';
 @value mediumScreen from '../../common/size.css';
@@ -7,7 +10,8 @@
   width: 50vw;
   height: auto;
   padding: 5rem 0;
-  background-color: makerOrange;
+  background: makerContainerBg;
+  color: makerWhite;
   border-radius: radius;
   display: flex;
   flex-direction: column;
@@ -16,16 +20,16 @@
 }
 
 .title {
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 2rem;
   width: 80%;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2rem;
+  color: makerMint;
   text-align: center;
 }
 
 .subtitle {
-  font-family: 'Jua', sans-serif;
-  font-size: 1.8rem;
   width: 80%;
+  font-size: 1.8rem;
   text-align: center;
 }
 
@@ -49,23 +53,23 @@
   from {
     opacity: 0;
     transform: translateY(1em);
-    box-shadow: 1em -2em royalblue;
+    box-shadow: 1em -2em makerYellow;
   }
   to {
     opacity: 1;
-    box-shadow: 0.8em 0.8em tomato;
+    box-shadow: 0.8em 0.8em makerMint;
   }
 }
 
 .span {
   width: 5em;
-  font-family: 'Jua', sans-serif;
   text-align: center;
   padding: 0.5em;
   margin: 1em;
-  background-color: lightcoral;
-  color: white;
-  border-radius: radius;
+  color: makerMint;
+  border: 1px solid makerMint;
+  border-top-left-radius: radius;
+  border-bottom-right-radius: radius;
 }
 
 .description,

@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-image: url('./images/bg.jpeg');
-  background-size: cover;
+  background: url(./images/polygon-scatter-haikei.svg);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Poor Story', cursive;
+  font-family: "Poor Story", cursive;
 }
