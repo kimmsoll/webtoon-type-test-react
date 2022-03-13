@@ -46,7 +46,7 @@
   width: 15em;
   height: auto;
   border-radius: radius;
-  animation: appear 3s forwards;
+  animation: appear 2.5s forwards;
 }
 
 @keyframes appear {

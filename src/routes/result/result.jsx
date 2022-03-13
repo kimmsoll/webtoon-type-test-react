@@ -20,11 +20,12 @@ const Result = ({sum, result}) => {
     }
 
     return (
-            <section className={styles.container}>
+        data &&
+            (<section className={styles.container}>
             <h1 className={styles.title}>"이 웹툰 어때요?"</h1>
             <h2 className={styles.subtitle}>{data.title}</h2>
             <div className={styles.img}>
-                <img id={styles.img} src={data.img} alt="cartoonImg"/>
+                <img id={styles.img} src={data.img} alt="cartoonImg" width="200"/>
             </div>
             <span className={styles.span}>* 추천 *</span>
             <p className={styles.description}>{data.description}</p>
@@ -39,7 +40,7 @@ const Result = ({sum, result}) => {
             <div onClick={shareKakao}>
                 <Button text="카카오톡으로 공유하기"/>
             </div>
-            </section>
+            </section>)
     );
 }
 
