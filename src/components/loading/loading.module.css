@@ -1,0 +1,36 @@
+@value makerWhite from '../../common/colors.css';
+@value makerYellow from '../../common/colors.css';
+@value makerMint from '../../common/colors.css';
+@value makerPurple from '../../common/colors.css';
+
+.section {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: makerWhite;
+  animation: colorChange 1s infinite;
+}
+
+@keyframes colorChange {
+  20% {
+    color: makerYellow;
+  }
+  40% {
+    color: makerMint;
+  }
+  60% {
+    color: makerPurple;
+  }
+  80% {
+    color: makerMint;
+  }
+  100% {
+    color: makerYellow;
+  }
+} ;

@@ -2,10 +2,24 @@ import Button from '../../components/button/button';
 import styles from './result.module.css';
 import { Link } from 'react-router-dom';
 import { shareKakao } from '../../kakao';
+import { useEffect, useState } from 'react';
+import Loading from '../../components/loading/loading';
 
 const Result = ({sum, result}) => {
+    const [loading, setLoading] = useState(true);
     const data = result[sum];
-    return(
+    
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000);
+    }, []);
+
+    if (loading) {
+        return <Loading />;
+    }
+
+    return (
             <section className={styles.container}>
             <h1 className={styles.title}>"이 웹툰 어때요?"</h1>
             <h2 className={styles.subtitle}>{data.title}</h2>
