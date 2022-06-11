@@ -9,7 +9,7 @@
 ### 2. 기능 소개(Features)
 
 - Kakao API 를 이용해 카카오톡 공유 기능 구현
-- React Hook, 함수형 컴포넌트 사용
+- React Hook, 함수 컴포넌트 사용
 - Post CSS 모듈화 기능 사용
 - mediaQuery를 통해 반응형 UI 구현
 
@@ -17,7 +17,7 @@
 
 ### 3. 사용 스택(Skills)
 
-React, React Hook, Post CSS
+React, React Hooks, React router, Post CSS
 
 </br>
 
