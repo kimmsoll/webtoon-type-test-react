@@ -4,7 +4,8 @@
 @value makerShadow from '../../common/colors.css';
 
 .button {
-  width: 100%;
+  width: 50vw;
+  min-width: 250px;
   border-radius: radius;
   border: none;
   background-color: makerLightBg;
