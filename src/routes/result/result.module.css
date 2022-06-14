@@ -21,7 +21,6 @@
 
 .title {
   width: 80%;
-  font-family: "Nanum Pen Script", cursive;
   font-size: 2rem;
   color: makerMint;
   text-align: center;
@@ -46,7 +45,7 @@
   width: 15em;
   height: auto;
   border-radius: radius;
-  animation: appear 2.5s forwards;
+  animation: appear 3s forwards;
 }
 
 @keyframes appear {

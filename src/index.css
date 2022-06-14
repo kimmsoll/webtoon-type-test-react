@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: "Poor Story", cursive;
 }
 
 body {
@@ -10,5 +11,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poor Story", cursive;
 }
